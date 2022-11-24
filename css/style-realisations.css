@@ -38,24 +38,26 @@ a:hover > .underline {
   font-size: 70px;
   font-family: "Poppins";
   font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 20px;
 }
 
 .movies {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 70px;
 }
 
 .movies img {
   margin-left: 90px;
-  margin-top: 50px;
-  height: 300px;
-  width: 220px;
-  border-radius: 13px;
+  margin-top: 80px;
+
+  height: 500px;
+  width: 350px;
 }
 
 .movies img:hover {
-  transform: scale(1.03);
+  transform: scale(1.01);
   transition: transform 450ms;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
